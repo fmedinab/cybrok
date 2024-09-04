@@ -254,6 +254,7 @@ html {
     align-items: center;
     flex-wrap: wrap;
 
+
 }
 
 .position-p {
@@ -281,6 +282,8 @@ html {
 .text-mydrugs {
     font-family: myfont;
     text-transform: uppercase;
+
+
 
 }
 
@@ -702,6 +705,49 @@ button:hover {
 
 
 
+@media screen and (max-width:440px) {
+
+    .container p {
+        font-size: 9px;
+        text-transform: initial;
+    
+    }
+    
+    
+    .text-white small {
+
+        font-size: 5px ;
+    }
+    
+
+    .position-p {
+       font-size: 1rem;
+    
+    }
+    .text-mydrugs {
+     font-size: 25px; 
+
+  }
+
+}
+
+@media screen and (max-width:755px) {
+
+    .container p {
+        font-size: 11px;
+        text-transform: initial;
+    
+    }
+    
+    
+    .text-white small {
+
+        font-size: 10px ;
+    }
+    
+
+
+}
 
 
 
